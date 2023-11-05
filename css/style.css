@@ -1,0 +1,204 @@
+@import url(fonts.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: R7;
+    
+}
+.container{
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.header-nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header{
+   background: #282828;
+  
+}
+.header-nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header-nav img{
+    padding: 6px 0;
+}
+.search{
+    display: flex;
+    gap: 25px;
+}
+.header-nav ul a{
+    color: #fff;
+    font-size: 20px;
+}
+.header-content{
+    background: url(../img/Header.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+
+}
+.header-content .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 38px;
+}
+.header-content h1{
+    color: #fff;
+    font-family: R4;
+    font-size: 100px;
+    line-height: 75px; /* 75% */
+}
+.header-content a{
+    background: #fff ;
+    color: #171718;
+    padding: 13px 14px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 500ms;
+}
+.header-content a:hover{
+    transform: scale(1.2)
+}
+.main .container{
+    display: flex;
+    gap: 30px;
+}
+.main{
+    background: #151515;
+}
+.main-start p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+.main-middle p{
+    
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+.main-end p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+.main-end .container{
+    display: flex;
+    gap: 87px;
+}
+.main-end p{
+    color: #FFF;
+text-align: right;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.telephone-card .container{
+    display: flex;
+    justify-content: center;
+    padding-top: 79px;
+  
+}
+.card h2{
+    font-size: 20px;
+}
+
+.card{
+    width: 255px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    transition: 300ms;
+}
+.par{
+    color: #000;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.card a{
+color: #FFF;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+background: #151515;
+padding: 7px 57px;
+margin: 15px 47px;
+}
+.footer-nav .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer-nav{
+    background: #282828;
+}
+.footer-nav ul{
+    display: flex;
+    gap: 30px;
+    padding: 96px 0;
+}
+.footer-nav ul a{
+    color: #FFF;
+
+
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.footer-nav img{
+    padding: 81px 0;
+}
+.visa{
+   display: flex;
+   gap: 29px;
+}
+.footer{
+    padding: 59px 0 0 0;
+}
+
+body{
+    background: #151515;
+}
+.card:hover{
+   transform: scale(1.1);
+}
+
+
+

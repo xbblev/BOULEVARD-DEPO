@@ -1,0 +1,10 @@
+@font-face{
+    font-family: R7;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face{
+    font-family: R4;
+    src: url(../fonts/ProstoOne-Regular.ttf);
+    font-weight: 400;
+}
